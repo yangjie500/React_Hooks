@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import App2 from './useReducer(complex)';
+import AppContext from "./context/useContext";
+import UseMultReducer from './UseMultReducer';
+import ReducerAndContext from './useReducerContext/ReducerAndContext';
+import UseReducerData from './UseReducerData';
+import UseCallback from './useCallback/UseCallback';
+import UseMemo from './useMemo/UseMemo';
+import UseRef from './useRef/UseRef';
+import UseRefTimer from './useRef/UseRefTimer';
+import CustomInput from './customHook/CustomInput';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <AppContext /> */}
+    {/* <App2 /> */}
+    {/* <UseMultReducer /> */}
+    {/* <ReducerAndContext /> */}
+    {/* <UseReducerData /> */}
+    {/* <UseCallback /> */}
+    {/* <UseMemo /> */}
+    {/* <UseRef /> */}
+    {/* <UseRefTimer /> */}
+    <CustomInput />
   </React.StrictMode>,
   document.getElementById('root')
 );
